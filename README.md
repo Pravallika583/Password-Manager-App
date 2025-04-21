@@ -1,26 +1,7 @@
-In this project, let's build a **Password Manager** by applying the concepts we have learned till now.
 
-### Refer to the image below:
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/passowrd-manager-output-v0.gif" alt="password manager" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
-
-### Design Files
-
-<details>
-<summary>Click to view</summary>
-
-- [Extra Small (Size < 576px) and Small (Size >= 576px) - No Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-no-passwords-sm-output-v2.png)
-- [Extra Small (Size < 576px) and Small (Size >= 576px) - Masked Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-masked-passwords-sm-output-v2.png)
-- [Extra Small (Size < 576px) and Small (Size >= 576px) - Show Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-sm-output-v2.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - No Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-no-passwords-lg-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Masked Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-masked-passwords-lg-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Show Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-lg-output.png)
-
-</details>
+### Refer to the url below:
+https://locknest.ccbp.tech
 
 ### Set Up Instructions
 
@@ -34,10 +15,10 @@ In this project, let's build a **Password Manager** by applying the concepts we 
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionality Added</summary>
 <br/>
 
-The app must have the following functionalities
+The app have the following functionalities
 
 - Initially, the website input, username input, and password input should be empty and [No Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-no-passwords-lg-output.png) should be displayed
 - When non-empty values are provided for the website, username, and password and the **Add** button is clicked,
@@ -52,21 +33,6 @@ The app must have the following functionalities
   - The respective password item should be deleted from the list of passwords
   - The passwords count should be decremented by one
 - When all password items are deleted, then [No Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-no-passwords-lg-output.png) should be displayed
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- HTML input element for website should have the placeholder as **Enter Website**
-- HTML input element for username should have the placeholder as **Enter Username**
-- HTML input element for password should have the placeholder as **Enter Password**
-- The delete button for each password item should have the data-testid as **delete**
 </details>
 
 ### Resources
@@ -113,14 +79,6 @@ The app must have the following functionalities
 
 <details>
 <summary>Font-families</summary>
-
 - Roboto
-
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
