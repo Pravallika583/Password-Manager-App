@@ -1,15 +1,15 @@
-.eachpassword-details {
-  list-style-type: none;
-}
-
 .password-item {
+  list-style-type: none;
+  box-sizing: border-box;
   border-color: #b6c3ca;
   border-width: 1px;
   border-style: solid;
   border-radius: 3px;
   padding: 15px;
   display: flex;
-  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 }
 .initial-circle {
   border-radius: 50%;
@@ -28,12 +28,17 @@
   gap: 8px;
   align-items: center;
 }
-.details{
-  color: white;
+.details {
+  color: #f8fafc;
+  font-size: 16px;
+  font-weight: 400;
   display: flex;
   flex-direction: column;
   gap: 5px;
-  font-weight: bold;
+  justify-content: center;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 .delete-button {
   all: unset;
@@ -41,4 +46,13 @@
 .delete-icon {
   height: 25px;
   width: 25px;
+}
+.stars-image {
+  width: 160px;
+  height: 18px;
+}
+@media screen and (max-width: 767px) {
+  .password-item {
+    width: 100%;
+  }
 }
